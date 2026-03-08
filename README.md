@@ -11,33 +11,12 @@ The project explores user behavior through funnel analysis, retention tracking, 
 - Churn detection and feature engineering
 - Visualization of user behavior metrics
 
-## Project Structure
+## Architecture
 
-src/
-  etl.py        # data cleaning
-  funnel.py     # funnel analysis
-  retention.py  # retention analysis
-  churn.py      # churn analysis
-
-data/
-  events.csv
-  events_clean.csv
-
-reports/
-  funnel_chart.png
-  retention_heatmap.png
-  churn_dataset.csv
-
-## Installation
-
-pip install pandas matplotlib
-
-## Run
-
-python src/etl.py
-python src/funnel.py
-python src/retention.py
-python src/churn.py
+- etl - data cleaning
+- funnel - funnel analysis
+- retention - retention analysis
+- churn - churn analysis
 
 ## Technologies
 
